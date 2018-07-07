@@ -31,3 +31,19 @@ print(knapsack({
     "laptop": [3, 2000],
     "stereo": [4, 3000]
 }, 4))
+
+print(knapsack({
+    "guitar": [1, 1500],
+    "laptop": [3, 2000],
+    "stereo": [4, 3000],
+    "iphone": [1, 2000],
+    "mp3": [1, 1000]
+}, 4))
+
+print(knapsack({
+    "water": [3, 10],
+    "book": [1, 3],
+    "food": [2, 9],
+    "jacket": [2, 5],
+    "camera": [1, 6]
+}, 6))
